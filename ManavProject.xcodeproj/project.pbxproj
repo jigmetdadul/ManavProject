@@ -16,6 +16,16 @@
 		163429742A496DEE00C06C76 /* ManavProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163429732A496DEE00C06C76 /* ManavProjectTests.swift */; };
 		1634297E2A496DEE00C06C76 /* ManavProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1634297D2A496DEE00C06C76 /* ManavProjectUITests.swift */; };
 		163429802A496DEE00C06C76 /* ManavProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1634297F2A496DEE00C06C76 /* ManavProjectUITestsLaunchTests.swift */; };
+		1634298E2A4976D700C06C76 /* MaintabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1634298D2A4976D700C06C76 /* MaintabBarController.swift */; };
+		163429902A497F2C00C06C76 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1634298F2A497F2C00C06C76 /* HomeViewController.swift */; };
+		163429942A49981C00C06C76 /* objectiveCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163429922A49981C00C06C76 /* objectiveCellTableViewCell.swift */; };
+		163429952A49981C00C06C76 /* objectiveCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 163429932A49981C00C06C76 /* objectiveCellTableViewCell.xib */; };
+		164AB45C2A49A3FC00CE15DA /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164AB45B2A49A3FC00CE15DA /* ProgressViewController.swift */; };
+		164AB4612A49A87500CE15DA /* ProgressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164AB45F2A49A87500CE15DA /* ProgressTableViewCell.swift */; };
+		164AB4622A49A87500CE15DA /* ProgressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 164AB4602A49A87500CE15DA /* ProgressTableViewCell.xib */; };
+		165FBDBA2A49B39600C01DC0 /* FLCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 165FBDB92A49B39600C01DC0 /* FLCharts */; };
+		165FBDBC2A49B3C900C01DC0 /* HabitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165FBDBB2A49B3C900C01DC0 /* HabitsViewController.swift */; };
+		167CC70B2A4A0A96000AA620 /* icons8-habit-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 167CC70A2A4A0A96000AA620 /* icons8-habit-64.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,15 @@
 		163429792A496DEE00C06C76 /* ManavProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManavProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1634297D2A496DEE00C06C76 /* ManavProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManavProjectUITests.swift; sourceTree = "<group>"; };
 		1634297F2A496DEE00C06C76 /* ManavProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManavProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1634298D2A4976D700C06C76 /* MaintabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintabBarController.swift; sourceTree = "<group>"; };
+		1634298F2A497F2C00C06C76 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		163429922A49981C00C06C76 /* objectiveCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = objectiveCellTableViewCell.swift; sourceTree = "<group>"; };
+		163429932A49981C00C06C76 /* objectiveCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = objectiveCellTableViewCell.xib; sourceTree = "<group>"; };
+		164AB45B2A49A3FC00CE15DA /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
+		164AB45F2A49A87500CE15DA /* ProgressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressTableViewCell.swift; sourceTree = "<group>"; };
+		164AB4602A49A87500CE15DA /* ProgressTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProgressTableViewCell.xib; sourceTree = "<group>"; };
+		165FBDBB2A49B3C900C01DC0 /* HabitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsViewController.swift; sourceTree = "<group>"; };
+		167CC70A2A4A0A96000AA620 /* icons8-habit-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-habit-64.png"; path = "../../../../../Downloads/icons8-habit-64.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				165FBDBA2A49B39600C01DC0 /* FLCharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,11 +119,12 @@
 		1634295B2A496DED00C06C76 /* ManavProject */ = {
 			isa = PBXGroup;
 			children = (
+				163429912A4997F000C06C76 /* View */,
+				1634298C2A49766C00C06C76 /* Controllers */,
 				1634295C2A496DED00C06C76 /* AppDelegate.swift */,
 				1634295E2A496DED00C06C76 /* SceneDelegate.swift */,
-				163429602A496DED00C06C76 /* ViewController.swift */,
-				163429622A496DED00C06C76 /* Main.storyboard */,
 				163429652A496DEE00C06C76 /* Assets.xcassets */,
+				167CC70A2A4A0A96000AA620 /* icons8-habit-64.png */,
 				163429672A496DEE00C06C76 /* LaunchScreen.storyboard */,
 				1634296A2A496DEE00C06C76 /* Info.plist */,
 			);
@@ -127,6 +148,30 @@
 			path = ManavProjectUITests;
 			sourceTree = "<group>";
 		};
+		1634298C2A49766C00C06C76 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				163429602A496DED00C06C76 /* ViewController.swift */,
+				1634298D2A4976D700C06C76 /* MaintabBarController.swift */,
+				1634298F2A497F2C00C06C76 /* HomeViewController.swift */,
+				164AB45B2A49A3FC00CE15DA /* ProgressViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		163429912A4997F000C06C76 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				163429622A496DED00C06C76 /* Main.storyboard */,
+				163429922A49981C00C06C76 /* objectiveCellTableViewCell.swift */,
+				163429932A49981C00C06C76 /* objectiveCellTableViewCell.xib */,
+				164AB45F2A49A87500CE15DA /* ProgressTableViewCell.swift */,
+				164AB4602A49A87500CE15DA /* ProgressTableViewCell.xib */,
+				165FBDBB2A49B3C900C01DC0 /* HabitsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +188,9 @@
 			dependencies = (
 			);
 			name = ManavProject;
+			packageProductDependencies = (
+				165FBDB92A49B39600C01DC0 /* FLCharts */,
+			);
 			productName = ManavProject;
 			productReference = 163429592A496DED00C06C76 /* ManavProject.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +263,9 @@
 				Base,
 			);
 			mainGroup = 163429502A496DED00C06C76;
+			packageReferences = (
+				165FBDB82A49B39600C01DC0 /* XCRemoteSwiftPackageReference "FLCharts" */,
+			);
 			productRefGroup = 1634295A2A496DED00C06C76 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,7 +282,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				167CC70B2A4A0A96000AA620 /* icons8-habit-64.png in Resources */,
 				163429692A496DEE00C06C76 /* LaunchScreen.storyboard in Resources */,
+				164AB4622A49A87500CE15DA /* ProgressTableViewCell.xib in Resources */,
+				163429952A49981C00C06C76 /* objectiveCellTableViewCell.xib in Resources */,
 				163429662A496DEE00C06C76 /* Assets.xcassets in Resources */,
 				163429642A496DED00C06C76 /* Main.storyboard in Resources */,
 			);
@@ -258,8 +312,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				163429942A49981C00C06C76 /* objectiveCellTableViewCell.swift in Sources */,
+				163429902A497F2C00C06C76 /* HomeViewController.swift in Sources */,
 				163429612A496DED00C06C76 /* ViewController.swift in Sources */,
+				164AB45C2A49A3FC00CE15DA /* ProgressViewController.swift in Sources */,
+				165FBDBC2A49B3C900C01DC0 /* HabitsViewController.swift in Sources */,
 				1634295D2A496DED00C06C76 /* AppDelegate.swift in Sources */,
+				1634298E2A4976D700C06C76 /* MaintabBarController.swift in Sources */,
+				164AB4612A49A87500CE15DA /* ProgressTableViewCell.swift in Sources */,
 				1634295F2A496DED00C06C76 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -602,6 +662,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		165FBDB82A49B39600C01DC0 /* XCRemoteSwiftPackageReference "FLCharts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/francescoleoni98/FLCharts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		165FBDB92A49B39600C01DC0 /* FLCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 165FBDB82A49B39600C01DC0 /* XCRemoteSwiftPackageReference "FLCharts" */;
+			productName = FLCharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 163429512A496DED00C06C76 /* Project object */;
 }
