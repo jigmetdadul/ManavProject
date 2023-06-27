@@ -25,7 +25,6 @@
 		164AB4622A49A87500CE15DA /* ProgressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 164AB4602A49A87500CE15DA /* ProgressTableViewCell.xib */; };
 		165FBDBA2A49B39600C01DC0 /* FLCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 165FBDB92A49B39600C01DC0 /* FLCharts */; };
 		165FBDBC2A49B3C900C01DC0 /* HabitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165FBDBB2A49B3C900C01DC0 /* HabitsViewController.swift */; };
-		167CC70B2A4A0A96000AA620 /* icons8-habit-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 167CC70A2A4A0A96000AA620 /* icons8-habit-64.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +66,6 @@
 		164AB45F2A49A87500CE15DA /* ProgressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressTableViewCell.swift; sourceTree = "<group>"; };
 		164AB4602A49A87500CE15DA /* ProgressTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProgressTableViewCell.xib; sourceTree = "<group>"; };
 		165FBDBB2A49B3C900C01DC0 /* HabitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsViewController.swift; sourceTree = "<group>"; };
-		167CC70A2A4A0A96000AA620 /* icons8-habit-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-habit-64.png"; path = "../../../../../Downloads/icons8-habit-64.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +122,6 @@
 				1634295C2A496DED00C06C76 /* AppDelegate.swift */,
 				1634295E2A496DED00C06C76 /* SceneDelegate.swift */,
 				163429652A496DEE00C06C76 /* Assets.xcassets */,
-				167CC70A2A4A0A96000AA620 /* icons8-habit-64.png */,
 				163429672A496DEE00C06C76 /* LaunchScreen.storyboard */,
 				1634296A2A496DEE00C06C76 /* Info.plist */,
 			);
@@ -282,7 +279,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				167CC70B2A4A0A96000AA620 /* icons8-habit-64.png in Resources */,
 				163429692A496DEE00C06C76 /* LaunchScreen.storyboard in Resources */,
 				164AB4622A49A87500CE15DA /* ProgressTableViewCell.xib in Resources */,
 				163429952A49981C00C06C76 /* objectiveCellTableViewCell.xib in Resources */,
