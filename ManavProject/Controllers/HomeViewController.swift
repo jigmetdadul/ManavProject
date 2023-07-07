@@ -49,7 +49,6 @@ class HomeViewController: UIViewController, ObjectiveCellDelegate {
         //Adding shadow to the button
         button.layer.shadowRadius = 10
         button.layer.shadowOpacity = 0.6
-        
         //Deals with the corner radius
         button.layer.cornerRadius = 30
         return button
