@@ -7,12 +7,6 @@ This is a basic habit tracking app designed to help you stay on track with your 
 Here is an example image:
 ![Example Image](https://github.com/jigmetdadul/ManavProject/blob/main/ManavProject/Screenshot%202023-07-07%20at%204.23.33%20PM.png | width=400)
 
-You add objectives:
-![Example Image](https://github.com/jigmetdadul/ManavProject/blob/main/ManavProject/Screenshot%202023-07-07%20at%204.23.42%20PM.png | width=400)
-
-And check them as you complete:
-![Example Image](https://github.com/jigmetdadul/ManavProject/blob/main/ManavProject/Screenshot%202023-07-07%20at%204.24.06%20PM.png | width=400)
-
 ## Key features
 
 - Track Your Objectives: Easily add and manage your daily objectives within the app.
