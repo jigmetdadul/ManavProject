@@ -71,7 +71,7 @@
 		16D11FC22A5826F4005243EF /* Screenshot 2023-07-07 at 4.23.42 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2023-07-07 at 4.23.42 PM.png"; sourceTree = "<group>"; };
 		16D11FC32A5826F4005243EF /* Screenshot 2023-07-07 at 4.24.06 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2023-07-07 at 4.24.06 PM.png"; sourceTree = "<group>"; };
 		16D11FC42A5829E9005243EF /* README-2.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = "README-2.md"; path = "../../../../../Downloads/README-2.md"; sourceTree = "<group>"; };
-		16D11FC62A5829F1005243EF /* README-2.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "README-2.md"; sourceTree = "<group>"; };
+		16D11FC62A5829F1005243EF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,7 @@
 			children = (
 				1634295B2A496DED00C06C76 /* ManavProject */,
 				163429722A496DEE00C06C76 /* ManavProjectTests */,
-				16D11FC62A5829F1005243EF /* README-2.md */,
+				16D11FC62A5829F1005243EF /* README.md */,
 				1634297C2A496DEE00C06C76 /* ManavProjectUITests */,
 				1634295A2A496DED00C06C76 /* Products */,
 			);
