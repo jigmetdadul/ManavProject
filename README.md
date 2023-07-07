@@ -5,7 +5,7 @@
 This is a basic habit tracking app designed to help you stay on track with your daily objectives. Whether you want to establish new habits or track your progress on existing ones, this app has got you covered. With its user-friendly interface and customizable features, it provides a seamless experience for managing and achieving your goals.
 
 Here is an example image:
-![Example Image](https://github.com/jigmetdadul/ManavProject/blob/main/ManavProject/Screenshot%202023-07-07%20at%204.23.33%20PM.png | width=400)
+![Example Image](https://github.com/jigmetdadul/ManavProject/blob/main/ManavProject/Screenshot%202023-07-07%20at%204.23.33%20PM.png)
 
 ## Key features
 
