@@ -25,9 +25,6 @@
 		164AB4622A49A87500CE15DA /* ProgressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 164AB4602A49A87500CE15DA /* ProgressTableViewCell.xib */; };
 		165FBDBA2A49B39600C01DC0 /* FLCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 165FBDB92A49B39600C01DC0 /* FLCharts */; };
 		165FBDBC2A49B3C900C01DC0 /* HabitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165FBDBB2A49B3C900C01DC0 /* HabitsViewController.swift */; };
-		16D11FBE2A582682005243EF /* Screenshot 2023-07-07 at 4.24.06 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 16D11FBB2A582682005243EF /* Screenshot 2023-07-07 at 4.24.06 PM.png */; };
-		16D11FBF2A582682005243EF /* Screenshot 2023-07-07 at 4.23.33 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 16D11FBC2A582682005243EF /* Screenshot 2023-07-07 at 4.23.33 PM.png */; };
-		16D11FC02A582682005243EF /* Screenshot 2023-07-07 at 4.23.42 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 16D11FBD2A582682005243EF /* Screenshot 2023-07-07 at 4.23.42 PM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,9 +66,9 @@
 		164AB45F2A49A87500CE15DA /* ProgressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressTableViewCell.swift; sourceTree = "<group>"; };
 		164AB4602A49A87500CE15DA /* ProgressTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProgressTableViewCell.xib; sourceTree = "<group>"; };
 		165FBDBB2A49B3C900C01DC0 /* HabitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsViewController.swift; sourceTree = "<group>"; };
-		16D11FBB2A582682005243EF /* Screenshot 2023-07-07 at 4.24.06 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screenshot 2023-07-07 at 4.24.06 PM.png"; path = "../../../../../../Desktop/Screenshot 2023-07-07 at 4.24.06 PM.png"; sourceTree = "<group>"; };
-		16D11FBC2A582682005243EF /* Screenshot 2023-07-07 at 4.23.33 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screenshot 2023-07-07 at 4.23.33 PM.png"; path = "../../../../../../Desktop/Screenshot 2023-07-07 at 4.23.33 PM.png"; sourceTree = "<group>"; };
-		16D11FBD2A582682005243EF /* Screenshot 2023-07-07 at 4.23.42 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screenshot 2023-07-07 at 4.23.42 PM.png"; path = "../../../../../../Desktop/Screenshot 2023-07-07 at 4.23.42 PM.png"; sourceTree = "<group>"; };
+		16D11FC12A5826F4005243EF /* Screenshot 2023-07-07 at 4.23.33 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2023-07-07 at 4.23.33 PM.png"; sourceTree = "<group>"; };
+		16D11FC22A5826F4005243EF /* Screenshot 2023-07-07 at 4.23.42 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2023-07-07 at 4.23.42 PM.png"; sourceTree = "<group>"; };
+		16D11FC32A5826F4005243EF /* Screenshot 2023-07-07 at 4.24.06 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2023-07-07 at 4.24.06 PM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +120,9 @@
 		1634295B2A496DED00C06C76 /* ManavProject */ = {
 			isa = PBXGroup;
 			children = (
-				16D11FBA2A582613005243EF /* readMeImages */,
+				16D11FC12A5826F4005243EF /* Screenshot 2023-07-07 at 4.23.33 PM.png */,
+				16D11FC22A5826F4005243EF /* Screenshot 2023-07-07 at 4.23.42 PM.png */,
+				16D11FC32A5826F4005243EF /* Screenshot 2023-07-07 at 4.24.06 PM.png */,
 				163429912A4997F000C06C76 /* View */,
 				1634298C2A49766C00C06C76 /* Controllers */,
 				1634295C2A496DED00C06C76 /* AppDelegate.swift */,
@@ -174,16 +173,6 @@
 				165FBDBB2A49B3C900C01DC0 /* HabitsViewController.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		16D11FBA2A582613005243EF /* readMeImages */ = {
-			isa = PBXGroup;
-			children = (
-				16D11FBC2A582682005243EF /* Screenshot 2023-07-07 at 4.23.33 PM.png */,
-				16D11FBD2A582682005243EF /* Screenshot 2023-07-07 at 4.23.42 PM.png */,
-				16D11FBB2A582682005243EF /* Screenshot 2023-07-07 at 4.24.06 PM.png */,
-			);
-			path = readMeImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,12 +286,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				163429692A496DEE00C06C76 /* LaunchScreen.storyboard in Resources */,
-				16D11FBE2A582682005243EF /* Screenshot 2023-07-07 at 4.24.06 PM.png in Resources */,
 				164AB4622A49A87500CE15DA /* ProgressTableViewCell.xib in Resources */,
 				163429952A49981C00C06C76 /* objectiveCellTableViewCell.xib in Resources */,
-				16D11FC02A582682005243EF /* Screenshot 2023-07-07 at 4.23.42 PM.png in Resources */,
 				163429662A496DEE00C06C76 /* Assets.xcassets in Resources */,
-				16D11FBF2A582682005243EF /* Screenshot 2023-07-07 at 4.23.33 PM.png in Resources */,
 				163429642A496DED00C06C76 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
